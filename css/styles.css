@@ -1,14 +1,18 @@
 body{
     background-color: #fff;
     color: #434455;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 ul{
     list-style:none;
 }
-/* HEADER */
+                    /* HEADER */
 .site-nav .link{
     color: #2E2F42;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:#404BBF;
 }
 .site-nav a {
     color: #2E2F42;
@@ -18,4 +22,46 @@ ul{
 }
 .contact{
     color:#434455;
+}
+.contact:hover,
+.contact:focus{
+    color:#404BBF;
+}
+                    /* Hero */
+.hero{
+    background-color: #2E2F42;
+    color:#ffffff;
+}
+.hero-title{
+
+}
+.hero-button{
+    background-color: #4D5AE5;
+    color:#ffffff;
+}
+.hero-button:hover{
+    background-color: #404BBF;
+}                   
+                   /* Section */
+.section-title{
+    color: #2E2F42;
+}
+.section p{
+    color:#434455;
+}
+.section h3{
+    color:#2E2F42;
+}
+                    /* Footer */
+.footer{
+    background-color: #2E2F42;
+}
+.footer p{
+    color: #E7E9FC;
+}
+.footer a{
+    color: #F4F4FD;
+}
+.footer-web{
+    color: #4D5AE5;
 }
