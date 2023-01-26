@@ -1,3 +1,21 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #434455;
+    font-family: Roboto;
+}
+ul{
+    list-style:none;
+}
+/* HEADER */
+.site-nav .link{
+    color: #2E2F42;
+}
+.site-nav a {
+    color: #2E2F42;
+}
+.logo-web{
+    color:#4D5AE5;
+}
+.contact{
+    color:#434455;
 }
