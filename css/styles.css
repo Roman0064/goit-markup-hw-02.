@@ -41,7 +41,17 @@ ul{
 }
 .hero-button:hover{
     background-color: #404BBF;
-}                   
+}
+                    /* Button */
+.button-primary{
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+.button-primary:hover,
+.button-primary:focus{
+    background-color: #404BBF;
+    color:#FFFFFF
+}
                    /* Section */
 .section-title{
     color: #2E2F42;
