@@ -2,6 +2,7 @@ body{
     background-color: #fff;
     color: #434455;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
 }
 ul{
     list-style:none;
@@ -20,8 +21,21 @@ ul{
 .logo-web{
     color:#4D5AE5;
 }
+.logo{
+    letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 800;
+    
+    
+}
 .contact{
     color:#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .contact:hover,
 .contact:focus{
@@ -31,13 +45,32 @@ ul{
 .hero{
     background-color: #2E2F42;
     color:#ffffff;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
 }
 .hero-title{
-
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    position: absolute;
+    width: 494px;
+    height: 120px;
+    left: 473px;
+    top: 260px;
 }
 .hero-button{
     background-color: #4D5AE5;
     color:#ffffff;
+    font-family: inherit;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+
 }
 .hero-button:hover{
     background-color: #404BBF;
@@ -46,6 +79,7 @@ ul{
 .button-primary{
     background-color: #F4F4FD;
     color: #4D5AE5;
+    font-family: inherit;
 }
 .button-primary:hover,
 .button-primary:focus{
@@ -58,19 +92,48 @@ ul{
 }
 .section p{
     color:#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
 }
 .section h3{
     color:#2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.section h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
                     /* Footer */
 .footer{
     background-color: #2E2F42;
+    width: 1440px;
+    height: 310px;
+    top: 2280px;
 }
 .footer p{
     color: #E7E9FC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .footer a{
     color: #F4F4FD;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 800;
 }
 .footer-web{
     color: #4D5AE5;
